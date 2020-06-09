@@ -1,9 +1,12 @@
-package me.zenisbestwolf.enablefly.commands;
+package me.zenisbestwolf.EnableFly.commands;
 
-import org.bukkit.command.*;
-import org.bukkit.entity.Player;
-import me.zenisbestwolf.enablefly.Main;
 import org.bukkit.Bukkit;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+
+import me.zenisbestwolf.EnableFly.Main;
 
 public class FlyCommand implements CommandExecutor {
 	private Main plugin;
